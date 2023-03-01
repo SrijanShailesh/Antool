@@ -1,0 +1,56 @@
+.hero__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.hero__typography {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    padding: 1rem;
+}
+
+.hero__typography-heading {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.hero__typography-subheading {
+    font-weight: 400;
+    text-align: left;
+    line-height: 20px;
+    color: #FFFFFF8C;
+}
+
+.hero__typography-search input{
+    border: 1.5px solid;
+    border-radius: 7px;
+    background: #283036;
+    border-image-source: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+      
+    padding: 0.5rem;
+}
+
+.hero__typography-btn {
+    border: 1.5px solid #FF6E30;
+    border-radius: 7px;
+    background: #FF6E30;
+    
+    padding: 0.5rem 1rem;
+}
+
+.hero__typography-socials img{
+    padding: 0 1rem;
+}
+
+.hero__illustration {
+    display: flex;
+    justify-content: flex-end;
+}

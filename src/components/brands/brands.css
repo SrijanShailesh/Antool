@@ -1,0 +1,15 @@
+.brand__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    padding: 5rem 0rem;
+}
+
+.brand__container p {
+  color: #FFFFFFCC;
+}
+
+.brand__container-logos img {
+    padding: 2rem;
+}
